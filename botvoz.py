@@ -36,6 +36,4 @@ def responder(mensagem):
     Obrigado pela compreenção[...]
     '''
     bot.reply_to(mensagem, text)
-
-
 bot.polling()
